@@ -4,13 +4,13 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DBConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/quickkart";
-    private static final String USER = "root";
-    private static final String PASSWORD = "0000";
+    // private static final String URL = "jdbc:mysql://localhost:3306/quickkart";
+    // private static final String USER = "root";
+    // private static final String PASSWORD = "0000";
 	
-//	private static final String URL = "jdbc:mysql://root:JmPJnCtPssGYmpworOjayvavUVEZCRcF@caboose.proxy.rlwy.net:35778/railway";
-//    private static final String USER = "root";
-//    private static final String PASSWORD = "JmPJnCtPssGYmpworOjayvavUVEZCRcF";
+   private static final String URL = "jdbc:mysql://root:JmPJnCtPssGYmpworOjayvavUVEZCRcF@caboose.proxy.rlwy.net:35778/railway";
+   private static final String USER = "root";
+   private static final String PASSWORD = "JmPJnCtPssGYmpworOjayvavUVEZCRcF";
 
     public static Connection getConnection() {
         try {
