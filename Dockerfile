@@ -1,5 +1,5 @@
 # Use official Tomcat with Java support
-FROM tomcat:9.0-jdk17
+FROM tomcat:9.0-jdk21
 
 # Clean default webapps (optional)
 RUN rm -rf /usr/local/tomcat/webapps/*
