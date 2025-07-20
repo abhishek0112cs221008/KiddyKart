@@ -35,7 +35,7 @@
         .profile-box small { color: #777; font-size: 0.85em; }
         .category-list button { display: block; width: 100%; text-align: left; padding: 10px; background-color: #f2f2f2; border: none; margin-bottom: 10px; border-radius: 8px; font-weight: 500; transition: all 0.3s ease; }
         .category-list button:hover { background-color: #007aff; color: white; transform: scale(1.03); }
-        .main-content { margin-left: 270px; padding: 20px; }
+        .main-content { margin: 0px; padding-bottom: 20px; }
         .navbar { background-color: #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.05); padding: 10px 30px; position: sticky; top: 0; z-index: 1000; }
         .navbar .search-form input { width: 300px; border-radius: 30px; }
         .card-img-top { height: 180px; object-fit: contain; background-color: #f8f9fa; border-bottom: 1px solid #eee; }
@@ -51,9 +51,17 @@
         ::-webkit-scrollbar-thumb { background-color: #aaa; border-radius: 10px; }
         ::-webkit-scrollbar-thumb:hover { background: pink; }
         ::-webkit-scrollbar-track { background: transparent; }
+        .banner_container{
+		    
+		}
+		.banner_image{
+		    width: 100%;
+		    
+		}
     </style>
 </head>
 <body>
+<%-- 
 <div class="sidebar">
     <h4><img src="assets/logo2.png" alt="Logo" style="width: 80px; margin-right: 10px;"> Welcome</h4>
     <div class="profile-box">
@@ -76,10 +84,9 @@
         <button onclick="filterCategory('learning')">📚 Books & Learning</button>
         <button onclick="filterCategory('sports')">🏀 Outdoor & Sports</button>
     </div>
-    
-    
-    
 </div>
+--%>
+
 <div class="main-content">
     <nav class="navbar d-flex justify-content-between align-items-center">
         <img src="assets/logo2.png" alt="Logo" style="width: 80px; margin-right: 10px;">
@@ -94,9 +101,15 @@
                 </span>
             </a>
             <a href="jsp/viewOrders.jsp" class="btn btn-outline-dark me-3">Your Orders</a>
-            <a href="jsp/logout.jsp" class="btn btn-outline-danger">Logout</a>
+           <%--  <a href="jsp/logout.jsp" class="btn btn-outline-danger">Logout</a> --%>
+            <a href="jsp/userProfile.jsp" class="btn btn-outline-primary">👤</a>
         </div>
     </nav>
+    
+    <div class="banner_container">
+        <img class="banner_image" src="assets/kids-shop-poster2.png" alt="banner_image" />
+     </div>
+    
     <div class="container-fluid mt-4">
         <div class="row">
             <% for (Product p : products) {
@@ -126,6 +139,8 @@
             <% } } %>
         </div>
     </div>
+    
+    
     <footer>
         <div class="row text-start">
             <div class="col-md-3 footer-section">
