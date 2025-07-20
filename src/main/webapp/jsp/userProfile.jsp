@@ -54,6 +54,7 @@
     <img src="https://api.dicebear.com/7.x/fun-emoji/svg?seed=<%= userName %>" alt="Profile" class="profile-pic">
     <h3><%= userName %></h3>
     <p class="text-muted mb-4">📧 <%= userEmail %></p>
+    <a href="jsp/logout.jsp" class="btn btn-outline-danger">Logout</a>
 
     <hr>
 
