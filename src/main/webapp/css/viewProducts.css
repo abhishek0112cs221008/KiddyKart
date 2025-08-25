@@ -1,0 +1,149 @@
+:root {
+    --primary-blue: #2874F0;
+    --primary-hover: #1e63d4;
+    --success-green: #28a745;
+    --success-hover: #218838;
+    --danger-red: #dc3545;
+    --danger-hover: #c82333;
+    --text-dark: #212529;
+    --text-muted: #6c757d;
+    --bg-light: #f4f6f8;
+    --card-bg: #ffffff;
+    --shadow: rgba(0, 0, 0, 0.05);
+    --border-color: #dee2e6;
+}
+
+body {
+    font-family: 'Poppins', 'Inter', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--card-bg);
+    box-shadow: 0 4px 10px var(--shadow);
+    padding: 1rem;
+}
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary-blue) !important;
+}
+.logout-btn {
+    font-weight: 500;
+    border-radius: 6px;
+}
+.logout-btn:hover {
+    background-color: var(--danger-red);
+    color: white !important;
+}
+.text-dark {
+    color: var(--text-dark) !important;
+}
+
+/* Back Link */
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: var(--primary-blue);
+    text-decoration: none;
+    font-weight: 500;
+}
+.back-link:hover {
+    color: var(--primary-hover);
+}
+
+/* Table Container */
+.table-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 1100px;
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px var(--shadow);
+}
+.table-header h3 {
+    font-weight: 600;
+    color: var(--primary-blue);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.add-btn {
+    font-weight: 500;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--success-green);
+    border-color: var(--success-green);
+}
+.add-btn:hover {
+    background-color: var(--success-hover);
+    border-color: var(--success-hover);
+}
+
+/* Table Styles */
+.table-responsive {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow-x: auto;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+thead th {
+    background-color: var(--primary-blue) !important;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+}
+tbody td {
+    vertical-align: middle;
+    padding: 12px 15px;
+    font-size: 0.95rem;
+}
+.product-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 8px;
+    background-color: #eee;
+    padding: 4px;
+}
+
+/* Action Buttons */
+.action-buttons a {
+    font-weight: 500;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+.btn-primary {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+}
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+.btn-danger {
+    background-color: var(--danger-red);
+    border-color: var(--danger-red);
+}
+.btn-danger:hover {
+    background-color: var(--danger-hover);
+    border-color: var(--danger-hover);
+}
+
+/* Footer */
+footer {
+    background-color: var(--card-bg);
+    border-top: 1px solid var(--border-color);
+    color: var(--text-muted);
+}
