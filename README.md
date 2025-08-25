@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🛒 KiddyKart – Children's eCommerce Platform
 
 KiddyKart is a full-stack eCommerce web application designed specifically for children's products like toys, books, clothes, and school supplies. Built using **Java (JSP/Servlets)** for the backend and **HTML/CSS/Bootstrap** for the frontend, KiddyKart is responsive, user-friendly, and packed with features like cart, orders, delivery addresses, and admin control.
@@ -46,6 +47,9 @@ KiddyKart is a full-stack eCommerce web application designed specifically for ch
 > - ![image](https://github.com/user-attachments/assets/e88e0a43-a2e9-436a-922c-548aa17f4701)
 
 
+=======
+# KiddyKart
+>>>>>>> d7d88856508d721adb973c360246503ffe0207b9
 =======
 # KiddyKart
 >>>>>>> d7d88856508d721adb973c360246503ffe0207b9
