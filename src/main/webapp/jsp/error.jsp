@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Oopsie! - KiddyKart</title>
+<title>Oopsie! - CampusKart</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/png" href="assets/logo2.png">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -489,45 +488,3 @@ body {
   </script>
 </body>
 </html>
-=======
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Login Error - KiddyKart</title>
-  <link rel="icon" type="assets/logo2.png" href="assets/logo2.png">
-  <style>
-    body {
-      font-family: 'Comic Sans MS', cursive;
-      background-color: #ffe6e6;
-      text-align: center;
-      padding-top: 100px;
-      color: #d32f2f;
-    }
-
-    h2 {
-      font-size: 2em;
-    }
-
-    a {
-      display: inline-block;
-      margin-top: 30px;
-      text-decoration: none;
-      background-color: #ff6f61;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 20px;
-    }
-  </style>
-</head>
-<body>
-
-  <h2>❌ Invalid login!</h2>
-  <p>Please check your email or password and try again.</p>
-
-  <a href="login.jsp">🔐 Back to Login</a>
-
-</body>
-</html>
->>>>>>> 7b9624a1060791e2afa1cd9a789ecd481afb6739
